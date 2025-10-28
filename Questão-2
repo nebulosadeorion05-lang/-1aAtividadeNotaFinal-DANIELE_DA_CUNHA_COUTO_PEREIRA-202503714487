@@ -1,1 +1,31 @@
-
+<!DOCTYPE html>
+<html lang= "pt-BR">
+<head>
+  <title> Questão 2 < /title>
+  <meta charset="UTF-8">
+  <style>
+    
+  </style>
+</head>
+<body>
+  <h2> Soma de Dois Números </h2>
+  <button onclick = "somar()"> Somar dois Números </button>
+  <script>
+    function somar() {
+      const n1 = 
+    Number(document.getElementByld('valor1').value);
+      const n2 = 
+    Number(document.getElementByld('valor2').value);
+      const resultado =
+      document.getElementByld('res').innerText = "Resultado" + resultado;
+}
+  </script>
+  <form action="/submit_form" method="post">
+    <label for = "name"> Digite o primeiro número: </label> <br>
+    <label for = "name"> Digite o segundo número: </label> <br>
+    <input type = "number" id = "number" name = "number"> <br> <br>
+    <input type = "number" id = "number" name = "number"> <br> <br>
+    <input type= "submit" value= "Somar">
+  </form>
+</body>
+</html>
