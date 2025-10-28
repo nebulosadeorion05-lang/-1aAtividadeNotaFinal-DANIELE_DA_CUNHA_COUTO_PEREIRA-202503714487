@@ -1,1 +1,20 @@
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title> Questão 4 </title>
+</head>
+<body>
+  <button onclick= "">  </button>
+  <script>
+    function calcularIMC() {
+      const peso = 
+    Number(document.getElementByld('peso').value);
+      const altura = 
+    Number(document.getElementByld('altura').value);
+      const imc = peso/(altura * altura);
+      document.getElementByld('resultado').innerText = "Seu IMC é: " + imc.toFixed(2);
+    }
+  </script>
+</body>
+</html>
