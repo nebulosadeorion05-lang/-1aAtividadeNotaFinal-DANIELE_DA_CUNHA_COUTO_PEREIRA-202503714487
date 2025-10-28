@@ -1,1 +1,30 @@
-
+<!DOCTYPE html>
+<html lang = "pt-BR">
+<head>
+  <meta charset = "UTF-8">
+  <title> Questão 1 </title>
+  <style>
+    h1 {
+        color: #4B0082;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    h2 {
+        color: #A020F0;
+        font-family: "Helvetica", sans-serif;
+        text-align: center;
+    }
+    p {
+        color: #000000;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1> Daniele Couto </h1>
+  <h2> Ciência da Computação </h2>
+  <p> Matrícula: 202503714487 </p>
+  <p> Olá! Me chamo Daniele e sou aluna do curso de Ciência da Computação. Sou apaixonada pela tecnologia e as transformações que ela traz para o nosso cotidiano, por isso escolhi essa graduação. Meu objetivo profissional é trazer praticidade e facilidade para a rotina cada vez mais corrida que as pessoas têm hoje. </p>
+</body>
+</html>
