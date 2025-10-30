@@ -1,30 +1,122 @@
 <!DOCTYPE html>
-<html lang = "pt-BR">
+<html lang="pt-BR">
+
 <head>
-  <meta charset = "UTF-8">
-  <title> Questão 1 </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil Pessoal</title>
+
   <style>
-    h1 {
-        color: #4B0082;
-        font-family: Arial, sans-serif;
-        text-align: center;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
     }
+
+    body {
+      background: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background: white;
+      width: 400px;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .foto {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 20px auto;
+      border: 3px solid #c7a863;
+      box-shadow: 0 0 10px rgba(199, 168, 99, 0.6);
+    }
+
+    .foto img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
     h2 {
-        color: #A020F0;
-        font-family: "Helvetica", sans-serif;
-        text-align: center;
+      color: rgb(199, 99, 174);
+      margin-bottom: 5px;
     }
-    p {
-        color: #000000;
-        font-family: Arial, sans-serif;
-        text-align: center;
+
+    .profissão {
+      font-weight: bold;
+      color: hsl(0, 0%, 33%);
+      margin-bottom: 15px;
+    }
+
+    .descrição {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .skills {
+      margin-bottom: 20px;
+    }
+
+    .skill {
+      display: inline-block;
+      background: #ff00bf;
+      color: aquamarine;
+      padding: 6px 12px;
+      border-radius: 6px;
+      margin: 5px;
+      font-size: 13px;
+    }
+
+    .links a {
+      margin: 0 10px;
+      color: #c7a863;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
+
 <body>
-  <h1> Daniele Couto </h1>
-  <h2> Ciência da Computação </h2>
-  <p> Matrícula: 202503714487 </p>
-  <p> Olá! Me chamo Daniele e sou aluna do curso de Ciência da Computação. Sou apaixonada pela tecnologia e as transformações que ela traz para o nosso cotidiano, por isso escolhi essa graduação. Meu objetivo profissional é trazer praticidade e facilidade para a rotina cada vez mais corrida que as pessoas têm hoje. </p>
+  <div class="card">
+    <div class="foto">
+      <img src="https://raw.githubusercontent.com/JhonnyNob/Trabalho-ATIVIDADE-DE-NOTA-FINAL-NF---DESEN.-WEB-4-0-PONTOS-/refs/heads/main/fotoDeniele.jpg"
+        alt="Foto de Daniele Couto">
+    </div>
+
+    <h2> Daniele Couto </h2>
+    <p class="profissão"> Ciência da Computação </p>
+    <p class="descrição">
+      Olá! Me chamo Daniele e, atualmente, estou cursando Ciência da Computação. Eu escolhi essa graduação pois sou apaixonada por tecnologia 
+e as melhorias que esta traz para o nosso cotidiano. Meu objetivo profissional é trazer praticidade para a vida cada  vez mais acelerada que
+a sociedade tem nos dias de hoje.
+    </p>
+
+    <div class="skills">
+      <span class="skill"> HTML </span>
+      <span class="skill > CSS </span>
+      <span class="skill"> JavaScript </span>
+    </div>
+
+    <div class="links">
+      <a href="#"> Instagram </a>
+      <a href="#"> GitHub </a>
+    </div>
+  </div>
 </body>
+
 </html>
