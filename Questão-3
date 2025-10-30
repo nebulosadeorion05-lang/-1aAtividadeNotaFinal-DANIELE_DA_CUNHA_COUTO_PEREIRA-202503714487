@@ -35,7 +35,7 @@ button {
   </div>
   <script>
     function mudarCor() {
-      const cores = ['red','blue','green','orange','purple'];
+      const cores = ['red','blue','green','orange','purple','yellow','pink'];
       const indice = Math.floor(Math.random() * cores.length);
       document.body.style.backgroundColor = cores[indice];
     }
