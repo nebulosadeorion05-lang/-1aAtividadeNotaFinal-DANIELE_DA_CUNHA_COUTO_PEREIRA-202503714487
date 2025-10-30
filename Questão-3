@@ -3,13 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <title> Questão 3 </title>
+<style>
+body{
+    background: #E6E6FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+button {
+    margin-top: 15px;
+    background-color: #8A2BE2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+</style>
 </head>
 <body>
-  <button onclick= "">  </button>
+  <div class = "box">
+    <button type = "button" onclick = "mudarCor()"> Mudar Cor </button>
+  </div>
   <script>
     function mudarCor() {
       const cores = ['red','blue','green','orange','purple'];
-      const indice = Math.floor(Math.random() * cores.lenght);
+      const indice = Math.floor(Math.random() * cores.length);
       document.body.style.backgroundColor = cores[indice];
     }
   </script>
