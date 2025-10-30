@@ -15,7 +15,7 @@
     }
 
     body {
-      background: #f4f4f9;
+      background: #E6E6FA;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -37,7 +37,7 @@
       border-radius: 50%;
       overflow: hidden;
       margin: 0 auto 20px auto;
-      border: 3px solid #c7a863;
+      border: 3px solid #8A2BE2;
       box-shadow: 0 0 10px rgba(199, 168, 99, 0.6);
     }
 
@@ -48,19 +48,19 @@
     }
 
     h2 {
-      color: rgb(199, 99, 174);
+      color: #8A2BE2;
       margin-bottom: 5px;
     }
 
     .profissão {
       font-weight: bold;
-      color: hsl(0, 0%, 33%);
+      color: #A020F0;
       margin-bottom: 15px;
     }
 
     .descrição {
       font-size: 14px;
-      color: #555;
+      color: #000000;
       margin-bottom: 20px;
     }
 
@@ -70,8 +70,8 @@
 
     .skill {
       display: inline-block;
-      background: #ff00bf;
-      color: aquamarine;
+      background: #8A2BE2;
+      color: #E6E6FA;
       padding: 6px 12px;
       border-radius: 6px;
       margin: 5px;
@@ -80,7 +80,7 @@
 
     .links a {
       margin: 0 10px;
-      color: #c7a863;
+      color: #000000;
       text-decoration: none;
       font-weight: bold;
     }
