@@ -3,17 +3,81 @@
 <head>
   <meta charset="UTF-8">
   <title> Questão 4 </title>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #E6E6FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+h2{
+    color: #8A2BE2;
+    margin: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color:#000000;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    margin-top: 15px;
+    background-color: #8A2BE2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+</style>
 </head>
 <body>
-  <button onclick= "">  </button>
+    <div class = "box">
+  <h2> Cálculo do IMC </h2>
+  <label for = "peso"> Peso (Kg): </label><br>
+  <input type = "number" id = "peso">  <br>
+
+  <label for = "altura"> Altura (m): </label><br>
+  <input type = "number" id = "altura"> <br>
+
+  <button type = "button" onclick = "calcularIMC()"> Calcular IMC </button>
+
+  <p id = "resultado"> </p>
+    </div>
   <script>
     function calcularIMC() {
-      const peso = 
-    Number(document.getElementByld('peso').value);
-      const altura = 
-    Number(document.getElementByld('altura').value);
+      const peso = Number(document.getElementById('peso').value);
+      const altura = Number(document.getElementById('altura').value);
       const imc = peso/(altura * altura);
-      document.getElementByld('resultado').innerText = "Seu IMC é: " + imc.toFixed(2);
+      document.getElementById('resultado').innerText = `Seu IMC é: ${imc.toFixed(2)}`;
     }
   </script>
 </body>
